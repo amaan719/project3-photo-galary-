@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Galary</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            gap: 5px;
+            background-color: rgb(17, 34, 82);
+        }
+        .img img{
+            height: 300px;
+            width: 50px;
+            border-radius: 40px;
+            transition: 0.5s;
+            margin-top: 100px;
+            opacity: 0.6;
+        }
+        .img img:hover{
+            width: 170px;
+            box-shadow: 0px 3px 3px black;
+            transform: scale(1.1);
+            opacity: 1;
+        }
+       
+        h1{
+            position: absolute;
+            top: 2px;
+            color: white;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Animation Gallry</h1>
+    <div class="img">
+        <img src="amman1.jpg">
+    </div>
+    <div class="img">
+        <img src="amaan2.jpg">
+    </div>
+    <div class="img">
+        <img src="amaan3.jpg">
+    </div>
+    <div class="img">
+        <img src="amaan4.jpg">
+    </div>
+    <div class="img">
+        <img src="amaan5.jpg">
+    </div>
+    <div class="img">
+        <img src="amaan6.jpg">
+    </div>
+    <div class="img">
+        <img src="amaan7.jpg">
+    </div>
+</body>
+</html>
